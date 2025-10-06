@@ -1,0 +1,76 @@
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.login {
+  color: #0070f3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.userWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.user {
+  font-weight: 500;
+  color: #333;
+}
+
+.logout {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  background: #f44336;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #d32f2f;
+  }
+}
+
+@media (max-width: 600px) {
+  .inner {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .nav {
+    gap: 0.5rem;
+  }
+}

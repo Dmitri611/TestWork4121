@@ -1,0 +1,40 @@
+.section {
+  padding: 3rem 1rem;
+  background: #fafafa;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.loading,
+.error {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.loading {
+  color: #0070f3;
+}
+
+.error {
+  color: #d00;
+  min-height: 20px;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
